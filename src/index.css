@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  direction: rtl;
+}
+
+body {
+  @apply bg-[#0f0f11] text-zinc-100 font-cairo antialiased;
+}
+
+::selection {
+  background: #f97316;
+  color: #0f0f11;
+}
